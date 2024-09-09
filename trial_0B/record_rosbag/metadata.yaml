@@ -2,23 +2,23 @@ rosbag2_bagfile_information:
   version: 5
   storage_identifier: sqlite3
   duration:
-    nanoseconds: 14287493824
+    nanoseconds: 39231808640
   starting_time:
-    nanoseconds_since_epoch: 1725912991612615224
-  message_count: 958
+    nanoseconds_since_epoch: 1725913090755404568
+  message_count: 2521
   topics_with_message_count:
     - topic_metadata:
         name: /artcar_1/control/vehicle_inputs
         type: art_msgs/msg/VehicleInput
         serialization_format: cdr
         offered_qos_profiles: "- history: 1\n  depth: 10\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 479
+      message_count: 1260
     - topic_metadata:
         name: /artcar_1/odometry/filtered
         type: nav_msgs/msg/Odometry
         serialization_format: cdr
         offered_qos_profiles: "- history: 1\n  depth: 10\n  reliability: 1\n  durability: 2\n  deadline:\n    sec: 9223372036\n    nsec: 854775807\n  lifespan:\n    sec: 9223372036\n    nsec: 854775807\n  liveliness: 1\n  liveliness_lease_duration:\n    sec: 9223372036\n    nsec: 854775807\n  avoid_ros_namespace_conventions: false"
-      message_count: 479
+      message_count: 1261
   compression_format: ""
   compression_mode: ""
   relative_file_paths:
@@ -26,7 +26,7 @@ rosbag2_bagfile_information:
   files:
     - path: record_rosbag_0.db3
       starting_time:
-        nanoseconds_since_epoch: 1725912991612615224
+        nanoseconds_since_epoch: 1725913090755404568
       duration:
-        nanoseconds: 14287493824
-      message_count: 958
+        nanoseconds: 39231808640
+      message_count: 2521

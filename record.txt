@@ -1,3 +1,0 @@
-Trial 1: Straight
-Trial 2: Circle
-Trial 3: S-curve`
