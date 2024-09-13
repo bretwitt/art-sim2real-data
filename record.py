@@ -46,7 +46,7 @@ class RosbagRecordPlaybackNode(Node):
 
         # Play the control inputs from the previous rosbag
         playback_command = [
-            'ros2', 'bag', 'play', playback_bag_name, '--storage', 'sqlite3'
+            'ros2', 'bag', 'play', playback_bag_name, '--storage', 'sqlite3', '--topics', '/artcar_1/control/vehicle_inputs'
         ]
         # Record the new /artcar_1/odometry/filtered data into a separate rosbag
         record_command = [
